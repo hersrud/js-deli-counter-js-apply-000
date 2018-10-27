@@ -52,4 +52,4 @@ function currentLine(line){
     otherDeli.push(i+1 + ". "+ line[i]);
   }
   console.log("The line is currently: " + otherDeli)
-  return "The line is currently: " + otherDeli.join(', ');
+  return "The line is currently: " + otherDeli.join(', ');}
