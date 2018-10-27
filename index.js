@@ -51,5 +51,6 @@ function currentLine(line){
   for(var i=0; i<line.length; i++) {
     otherDeli.push(i+1 + ". "+ line[i]);
   }
-  console.log("The line is currently: " + otherDeli)
+  console.log("The line is currently: " + otherDeli) {
   return "The line is currently: " + otherDeli.join(', ');}
+}
