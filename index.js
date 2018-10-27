@@ -26,7 +26,7 @@ function nowServing (deliLine){
     return "The line is currently: " + lineNamesandNumbers.join(', ');
   }  return "Currently serving " + lineNamesandNumbers + "."
 }
-<<<<<<< HEAD
+
 //build a function that accepts the current line of people and returns the current line as a string
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length==0) {
