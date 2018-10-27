@@ -26,6 +26,7 @@ function nowServing (deliLine){
     return "The line is currently: " + lineNamesandNumbers.join(', ');
   }  return "Currently serving " +name+ "."
 }
+<<<<<<< HEAD
 //build a function that accepts the current line of people and returns the current line as a string
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length==0) {
@@ -37,4 +38,21 @@ function currentLine(katzDeliLine) {
     result += ` ${i+1}. ${katzDeliLine[i]}` + (i+1<katzDeliLine.length?",":"");
   }
   return result;
+=======
+
+//build a function that accepts the current line of people and returns the current line as a string
+var katzDeli = [];
+
+function currentLine(line){
+  if(!line.length) {
+    return "The line is currently empty.";
+  }
+  var otherDeli = [];
+
+  for(var i=0; i<line.length; i++) {
+    otherDeli.push(i+1 + ". "+ line[i]);
+  }
+  console.log("The line is currently: " + otherDeli)
+  return "The line is currently: " + otherDeli.join(', ');
+>>>>>>> 9ee18bc2238b1a2fd58dc471836f632082bbaaba
 }
