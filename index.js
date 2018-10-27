@@ -53,5 +53,4 @@ function currentLine(line){
   }
   console.log("The line is currently: " + otherDeli)
   return "The line is currently: " + otherDeli.join(', ');
->>>>>>> 9ee18bc2238b1a2fd58dc471836f632082bbaaba
 }
