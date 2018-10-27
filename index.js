@@ -24,7 +24,7 @@ function nowServing (deliLine){
     }
     console.log("The line is currently: " + lineNamesandNumbers)
     return "The line is currently: " + lineNamesandNumbers.join(', ');
-  }  return "Currently serving " + lineNamesandNumbers"."
+  }  return "Currently serving " + lineNamesandNumbers + "."
 }
 <<<<<<< HEAD
 //build a function that accepts the current line of people and returns the current line as a string
