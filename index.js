@@ -38,7 +38,6 @@ function currentLine(katzDeliLine) {
     result += ` ${i+1}. ${katzDeliLine[i]}` + (i+1<katzDeliLine.length?",":"");
   }
   return result;
-=======
 
 //build a function that accepts the current line of people and returns the current line as a string
 var katzDeli = [];
